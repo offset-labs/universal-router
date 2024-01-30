@@ -1,20 +1,20 @@
 {
-  "name": "@uniswap/universal-router",
+  "name": "@offsetcarbon/universal-router",
   "description": "Smart contracts for Universal Router",
   "license": "GPL-2.0-or-later",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.6.0",
+  "version": "1.6.2",
   "keywords": [
-    "uniswap",
+    "offset",
     "router",
     "universal router",
     "swap router"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/universal-router"
+    "url": "https://github.com/offset-labs/universal-router"
   },
   "files": [
     "contracts/base",
@@ -46,6 +46,10 @@
     "@uniswap/snapshot-gas-cost": "^1.0.0",
     "@uniswap/v2-sdk": "^3.0.1",
     "@uniswap/v3-sdk": "^3.8.3",
+    "@offsetcarbon/router-sdk": "^1.7.5",
+    "@offsetcarbon/sdk-core": "^4.0.13",
+    "@offsetcarbon/v2-sdk": "^4.1.0",
+    "@offsetcarbon/v3-sdk": "^3.10.1",
     "bignumber.js": "^9.0.0",
     "chai": "^4.3.4",
     "ethers": "^5.7.2",
