@@ -23,7 +23,7 @@ contract DeployArbitrumSepolia is DeployUniversalRouter {
             routerRewardsDistributor: UNSUPPORTED_PROTOCOL,
             looksRareRewardsDistributor: UNSUPPORTED_PROTOCOL,
             looksRareToken: UNSUPPORTED_PROTOCOL,
-            v2Factory: UNSUPPORTED_PROTOCOL,
+            v2Factory: 0x1A4BD3A49ccb372c02D0B2E049bdc983c1c062b9,
             v3Factory: 0xa2f405EBa9dB3F837D8540C1C886CeD1C5915033,
             pairInitCodeHash: BYTES32_ZERO,
             poolInitCodeHash: 0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54
